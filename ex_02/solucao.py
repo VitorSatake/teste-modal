@@ -9,7 +9,7 @@ arquivo_aniversariantes = 'ex_02/aniversariantes.txt'
 # Obtém o mês atual
 mes_corrente = datetime.datetime.now().month
 
-# Inicializa uma lista para armazenar os aniversariantes do mês
+# Inicializa uma lista para armazenar os aniversariantes do mês, onde ele será criado
 aniversariantes = []
 
 # Lê o arquivo de dados dos consultores
