@@ -10,10 +10,10 @@ felicitações. Você foi escolhido para criar uma solução que atenda esses qu
 
 import datetime
 
-# Caminho para o arquivo de dados dos consultores
+# Caminho para o arquivo de dados dos consultores, onde ele será consultado
 arquivo_consultores = 'ex_02/consultores.txt'
 
-# Caminho para o arquivo de aniversariantes do mês
+# Caminho para o arquivo de aniversariantes do mês, onde ele será criado
 arquivo_aniversariantes = 'ex_02/aniversariantes.txt'
 
 # Obtém o mês atual
@@ -42,6 +42,5 @@ with open(arquivo_aniversariantes, 'w') as arquivo:
     for aniversariante in aniversariantes:
         arquivo.write(aniversariante + '\n')
 
-# Agora você pode enviar mensagens de felicitações para os aniversariantes
 
 print('Aniversariantes do mês foram identificados do arquivo "consultores.txt" e salvos em', arquivo_aniversariantes)
