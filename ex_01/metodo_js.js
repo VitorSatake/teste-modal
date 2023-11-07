@@ -19,7 +19,7 @@ function encrypt(senha) {
   return metodo;
 }
 
-// Função para descriptografar um texto criptografado
+// Função para descriptografar o texto criptografado
 function decrypt(metodo) {
   const bytes = CryptoJS.AES.decrypt(metodo, chave);
   const original = bytes.toString(CryptoJS.enc.Utf8);
@@ -28,6 +28,7 @@ function decrypt(metodo) {
 
 // Criptografando e Descriptografando
 const senha = "12345678";
+console.log("Senha original:",senha)
 const senhaCriptografada = encrypt(senha);
 console.log("Senha Criptografada:", senhaCriptografada);
 

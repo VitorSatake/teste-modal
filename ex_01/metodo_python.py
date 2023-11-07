@@ -14,7 +14,9 @@ import cryptocode
 
 # criptografando a senha 12345678 e passando a chave secreta para descriptografar
 chave = "#modalGR#GPTW#top#maiorEmpresaTecnologia#baixadaSantista"
-criptografando = cryptocode.encrypt("12345678", chave)
+senha = "12345678"
+print(senha)
+criptografando = cryptocode.encrypt(senha, chave)
 print(criptografando)
 
 descriptografando = cryptocode.decrypt(criptografando, chave)
