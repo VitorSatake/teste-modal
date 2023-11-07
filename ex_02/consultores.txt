@@ -6,3 +6,4 @@ José Carlos|joseCarlos@email.com|27/11/1970
 Thais Araujo|thais@email.com|25/02/1989
 Marcia Cristina|marcia@email.com|25/11/1989
 Pedro Araujo|pedro@email.com|30/07/1989
+Carlos Silva|carlos@email.com|30/11/1989
